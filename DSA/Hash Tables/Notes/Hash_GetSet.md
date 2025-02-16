@@ -40,5 +40,3 @@ The `get` method retrieves a **value** given a key:
 - The `set` method hashes keys and stores values in nested arrays.
 - The `get` method retrieves values by iterating over these arrays.
 - If a key is **not found**, `undefined` is returned.
-
-## Implementation Code - [See Here]()
