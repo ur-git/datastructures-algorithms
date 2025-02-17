@@ -138,7 +138,8 @@ This pattern is incredibly useful for problems beyond just **sum zero**, such as
 
 ## Multiple Pointer Pattern Examples
 
-- [Sum zero]()
+- [Count Unique](./Code//count_unique.js)
+- [Sum zero](./Code/sum_zero.js)
 - [Average Pair]()
 - [Find Pair]()
 - [isSubsequence]()

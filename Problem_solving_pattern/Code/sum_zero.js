@@ -1,0 +1,1 @@
+// Write a function `sumZero` that accepts a **sorted array** of integers. The function should find the **first pair** where the sum is zero and return it as an array. If no such pair exists, return `undefined`.
