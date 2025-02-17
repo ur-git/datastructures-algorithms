@@ -5,7 +5,6 @@ function areThereDuplicates(...args) {
     freqCounter[args[i]] = (freqCounter[args[i]] || 0) + 1;
   }
 
-  console.log(freqCounter);
   for (let key in freqCounter) {
     if (freqCounter[key] > 1) {
       return true;

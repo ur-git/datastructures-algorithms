@@ -89,6 +89,6 @@ function same(arr1, arr2) {
 
 - [Anagram detection](./Code/anagram.js)
 - [Finding all duplicate](./Code/findAllDuplicates.js)
-- [Validating permutations]()
+- [Are there duplicate](./Code/areThereDuplicates.js)
 - [Construct Note](./Code/constructNote.js)
 - [Same Frequency](./Code/same_frequency.js)
