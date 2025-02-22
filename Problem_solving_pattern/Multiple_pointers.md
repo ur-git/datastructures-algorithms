@@ -141,6 +141,6 @@ This pattern is incredibly useful for problems beyond just **sum zero**, such as
 - [Count Unique](./Code//count_unique.js)
 - [Sum zero](./Code/sum_zero.js)
 - [Average Pair](./Code/average_pair.js)
-- [Find Pair]()
+- [Find Pair](./Code/find_pair.js)
 - [isSubsequence](./Code/isSubsequence.js)
 - [Palindrome checking]()
