@@ -140,7 +140,7 @@ This pattern is incredibly useful for problems beyond just **sum zero**, such as
 
 - [Count Unique](./Code//count_unique.js)
 - [Sum zero](./Code/sum_zero.js)
-- [Average Pair]()
+- [Average Pair](./Code/average_pair.js)
 - [Find Pair]()
-- [isSubsequence]()
+- [isSubsequence](./Code/isSubsequence.js)
 - [Palindrome checking]()
