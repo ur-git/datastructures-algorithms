@@ -87,8 +87,8 @@ function same(arr1, arr2) {
 
 ## Frequency Counter Pattern Examples
 
-- [Anagram detection](./Code/anagram.js)
-- [Finding all duplicate](./Code/findAllDuplicates.js)
-- [Are there duplicate](./Code/areThereDuplicates.js)
-- [Construct Note](./Code/constructNote.js)
-- [Same Frequency](./Code/same_frequency.js)
+- [Anagram detection](./Problem_Set/anagram.js)
+- [Finding all duplicate](./Problem_Set/findAllDuplicates.js)
+- [Are there duplicate](./Problem_Set/areThereDuplicates.js)
+- [Construct Note](./Problem_Set/constructNote.js)
+- [Same Frequency](./Problem_Set/same_frequency.js)

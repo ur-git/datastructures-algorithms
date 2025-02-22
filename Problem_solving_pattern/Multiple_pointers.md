@@ -138,9 +138,9 @@ This pattern is incredibly useful for problems beyond just **sum zero**, such as
 
 ## Multiple Pointer Pattern Examples
 
-- [Count Unique](./Code//count_unique.js)
-- [Sum zero](./Code/sum_zero.js)
-- [Average Pair](./Code/average_pair.js)
-- [Find Pair](./Code/find_pair.js)
-- [isSubsequence](./Code/isSubsequence.js)
+- [Count Unique](./Problem_Set/count_unique.js)
+- [Sum zero](./Problem_Set/sum_zero.js)
+- [Average Pair](./Problem_Set/average_pair.js)
+- [Find Pair](./Problem_Set/find_pair.js)
+- [isSubsequence](./Problem_Set/isSubsequence.js)
 - [Palindrome checking]()
