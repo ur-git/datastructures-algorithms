@@ -1,4 +1,4 @@
-# Selection Sort - Expert Notes
+# Selection Sort - [Visualize here](https://visualgo.net/en/sorting?slide=1)
 
 ## Overview
 
