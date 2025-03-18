@@ -47,6 +47,22 @@ function longestUniqueSubstring(s) {
 }
 ```
 
+#### Iterations
+
+**Input:** `"abcabcbb"`
+| `right` | `s[right]` | `set` (current window) | `left` moves? | `maxLength` |
+|---------|-----------|-----------------|--------------|-----------|
+| 0 | `'a'` | `{a}` | No | 1 |
+| 1 | `'b'` | `{a, b}` | No | 2 |
+| 2 | `'c'` | `{a, b, c}` | No | 3 |
+| 3 | `'a'` | `{b, c, a}` | Yes (Remove `a`, left → 1) | 3 |
+| 4 | `'b'` | `{c, a, b}` | Yes (Remove `b`, left → 2) | 3 |
+| 5 | `'c'` | `{a, b, c}` | Yes (Remove `c`, left → 3) | 3 |
+| 6 | `'b'` | `{a, c, b}` | Yes (Remove `a`, left → 4) | 3 |
+| 7 | `'b'` | `{c, b}` | Yes (Remove `c`, left → 5) | 3 |
+
+Final Output: `3` (`"abc"` is the longest unique substring)
+
 ---
 
 ## Problem 2: Maximum Sum of n Consecutive Elements
@@ -105,6 +121,16 @@ function maxSubarraySumOptimized(arr, num) {
 }
 ```
 
+#### Iterations:
+
+| Window | Elements    | Sum | Max Sum Updated? | Start Index |
+| ------ | ----------- | --- | ---------------- | ----------- |
+| 1st    | `[2, 3, 5]` | 10  | ✅ Yes (10)      | 0           |
+| 2nd    | `[3, 5, 2]` | 10  | ❌ No            | 0           |
+| 3rd    | `[5, 2, 9]` | 16  | ✅ Yes (16)      | 2           |
+| 4th    | `[2, 9, 7]` | 18  | ✅ Yes (18)      | 3           |
+| 5th    | `[9, 7, 1]` | 17  | ❌ No            | 3           |
+
 ### Explanation
 
 - The first loop computes the initial sum.
@@ -135,6 +161,6 @@ The **Sliding Window** technique is a powerful approach for optimizing problems 
 
 ## Sliding Pattern Examples
 
-- [Max Subarray Sum]()
-- [Min Subarray Length]()
-- [Find Longest Substring]()
+- [Max Subarray Sum](./Problem_Set//maxSubarraySum.js)
+- [Min Subarray Length](./Problem_Set/minSubArrayLen.js)
+- [Find Longest Substring](./Problem_Set/longestUniqueSubstring.js)

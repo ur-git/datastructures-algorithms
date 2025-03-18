@@ -1,7 +1,5 @@
 # Bubble Sort Algorithm - [Visualize here](https://visualgo.net/en/sorting)
 
-## Overview
-
 Bubble Sort is one of the simplest sorting algorithms, but it is also inefficient compared to other sorting techniques. It is primarily useful for educational purposes and understanding sorting fundamentals. While rarely used in production, it has one niche use case that we will discuss. Despite its inefficiencies, Bubble Sort provides insight into sorting mechanics and how more optimized algorithms improve upon it.
 
 ## Why is it Called Bubble Sort?
