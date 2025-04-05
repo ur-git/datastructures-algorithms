@@ -13,6 +13,9 @@ It follows the **divide and conquer** approach, which involves:
 
 ### Example
 
+![](../../../Images/merge1.png)
+
+
 Given Array: `[8, 3, 5, 4, 7, 6, 1, 2]`
 
 1. **Splitting Phase:**
@@ -39,6 +42,8 @@ Given Array: `[8, 3, 5, 4, 7, 6, 1, 2]`
 ## Space Complexity
 
 - `O(n)` due to additional arrays being created during merging.
+
+![](../../../Images/merge3.png)
 
 ## Advantages of Merge Sort
 

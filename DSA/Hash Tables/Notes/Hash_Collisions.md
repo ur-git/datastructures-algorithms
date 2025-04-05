@@ -10,7 +10,7 @@ Collisions are inevitable in hash tables, even with an excellent hash function. 
 
 Separate Chaining allows multiple key-value pairs to exist at the same index by using a nested data structure, such as an array or a linked list.
 
-![Separate Chaining](../images/sc.png)
+![Separate Chaining](../../../Images/sc.png)
 
 ### How it Works:
 
@@ -51,7 +51,7 @@ If we hash 'dark blue' and 'salmon' both to index `4`, they are stored as an arr
 
 Linear Probing avoids nested structures by ensuring that only **one key-value pair** is stored at each index. If a collision occurs, it finds the next available empty slot.
 
-![Linear Probing](../images/lp.png)
+![Linear Probing](../../../Images/lp.png)
 
 ### How it Works:
 
