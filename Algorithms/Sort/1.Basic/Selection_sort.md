@@ -2,44 +2,17 @@
 
 ## Overview
 
-Selection Sort is a simple comparison-based sorting algorithm that works by repeatedly selecting the minimum element from the unsorted portion of the array and swapping it with the first unsorted element. Unlike Bubble Sort, which moves the largest values to their correct position, Selection Sort moves the smallest values into their correct place one by one.
+Selection Sort is a simple comparison-based sorting algorithm that works by repeatedly selecting the minimum element from the unsorted portion of the array and swapping it with the first unsorted element.
 
-## Algorithm Explanation
-
-1. Start with the first element and assume it's the minimum.
-2. Scan the rest of the array to find the actual minimum value.
-3. Swap the minimum value found with the first unsorted element.
-4. Move to the next position and repeat the process until the entire array is sorted.
-
-### Example Walkthrough
-
-**Unsorted Array:** `[5, 3, 4, 1, 2]`
-
-#### First Pass:
-
-- Assume `5` is the minimum.
-- Compare `5` with `3`, `4`, `1`, `2`. The smallest is `1`.
-- Swap `1` with `5`: `[1, 3, 4, 5, 2]`
-
-#### Second Pass:
-
-- Assume `3` is the minimum.
-- Compare `3` with `4`, `5`, `2`. The smallest is `2`.
-- Swap `2` with `3`: `[1, 2, 4, 5, 3]`
-
-#### Third Pass:
-
-- Assume `4` is the minimum.
-- Compare `4` with `5`, `3`. The smallest is `3`.
-- Swap `3` with `4`: `[1, 2, 3, 5, 4]`
-
-#### Fourth Pass:
-
-- Assume `5` is the minimum.
-- Compare `5` with `4`. The smallest is `4`.
-- Swap `4` with `5`: `[1, 2, 3, 4, 5]` (Sorted!)
+Similar to Bubble Sort, but instead of pushing largest values to the end, it pulls smallest values to the beginning.
 
 ## Pseudocode
+
+1. Store the first element as smallest value
+2. Compare this item to next item in array until you find a smaller number.
+3. If smaller element is found, designate that smaller number to new "minimum" and continue until end of array
+4. If "minimum" is not the value you initially begin with, then swap the two values
+5. Move to the next position and repeat the process until the entire array is sorted.
 
 ```plaintext
 selectionSort(arr):
@@ -71,6 +44,32 @@ function selectionSort(arr) {
   return arr;
 }
 ```
+
+**Unsorted Array:** `[5, 3, 4, 1, 2]`
+
+First Pass:
+
+- Assume `5` is the minimum.
+- Compare `5` with `3`, `4`, `1`, `2`. The smallest is `1`.
+- Swap `1` with `5`: `[1, 3, 4, 5, 2]`
+
+Second Pass:
+
+- Assume `3` is the minimum.
+- Compare `3` with `4`, `5`, `2`. The smallest is `2`.
+- Swap `2` with `3`: `[1, 2, 4, 5, 3]`
+
+Third Pass:
+
+- Assume `4` is the minimum.
+- Compare `4` with `5`, `3`. The smallest is `3`.
+- Swap `3` with `4`: `[1, 2, 3, 5, 4]`
+
+Fourth Pass:
+
+- Assume `5` is the minimum.
+- Compare `5` with `4`. The smallest is `4`.
+- Swap `4` with `5`: `[1, 2, 3, 4, 5]` (Sorted!)
 
 ## Time Complexity
 

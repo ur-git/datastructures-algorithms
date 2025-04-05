@@ -1,13 +1,5 @@
 # Sorting - [Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
 
-- Comparison of Elementary Sorting Algorithms
-
-  - [Bubble Sort](./bubble_sort.md)
-  - [Selection Sort](./selection_sort.md)
-  - [Insertion Sort](./insertion_sort.md)
-
-- Comparison of Efficient sorting techniques
-
 ## Elementary Sorting Algorithms
 
 Bubble Sort, Selection Sort, and Insertion Sort are three fundamental sorting algorithms. They are classified as **quadratic sorting algorithms** due to their worst-case and average-case time complexity of **O(n²)**. While these algorithms are simple to understand and implement, they are inefficient for large datasets.
@@ -59,5 +51,3 @@ Since these algorithms operate **in-place**, they require only a **constant amou
 2. **Bubble Sort can be optimized to detect early sorting**, making it better than Selection Sort in such cases.
 3. **Selection Sort is simple but inefficient** in most practical applications due to its consistent O(n²) behavior.
 4. **All three sorting algorithms are only suitable for small datasets** or when simplicity and low memory usage are priorities.
-
-## Efficient Sorting Algorithms
